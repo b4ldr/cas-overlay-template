@@ -1,0 +1,30 @@
+dn: cn=admin,dc=example,dc=edu
+objectClass: simpleSecurityObject
+objectClass: organizationalRole
+objectclass: inetOrgPerson
+cn: admin
+sn: admin
+userPassword: password
+description: LDAP administrator
+
+dn: cn=u2f,ou=People,dc=example,dc=edu
+changetype: add
+objectClass: simpleSecurityObject
+objectClass: organizationalRole
+objectclass: inetOrgPerson
+cn: u2f
+sn: user
+userPassword: password
+description: LDAP administrator
+preferredLanguage: mfa-u2f
+
+dn: cn=gauth,ou=People,dc=example,dc=edu
+changetype: add
+objectClass: simpleSecurityObject
+objectClass: organizationalRole
+objectclass: inetOrgPerson
+cn: gauth
+sn: user
+userPassword: password
+description: LDAP administrator
+preferredLanguage: mfa-gauth
