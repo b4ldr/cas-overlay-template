@@ -4,7 +4,7 @@
     <Properties>
         <Property name="baseDir">/var/log</Property>
 
-        <Property name="cas.log.level">info</Property>
+        <Property name="cas.log.level">trace</Property>
         <Property name="spring.webflow.log.level">warn</Property>
         <Property name="spring.security.log.level">info</Property>
         <Property name="spring.cloud.log.level">warn</Property>
